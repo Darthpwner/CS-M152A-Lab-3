@@ -1,16 +1,16 @@
-Release 14.7 - xst P.20131013 (nt)
+Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to W:/LinShea/Lab_3/xst/projnav.tmp
+--> Parameter TMPDIR set to C:/Users/MichaelShea/Desktop/lab3_guan/xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.52 secs
+Total CPU time to Xst completion: 0.09 secs
  
---> Parameter xsthdpdir set to W:/LinShea/Lab_3/xst
+--> Parameter xsthdpdir set to C:/Users/MichaelShea/Desktop/lab3_guan/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.52 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Reading design: fsm.prj
 
@@ -39,16 +39,18 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "\\psf\esd-usb\LinShea\Lab_3\fsm.v" into library work
+Analyzing Verilog file "C:\Users\MichaelShea\Desktop\lab3_guan\clock_devider.v" into library work
+Parsing module <clock_devider>.
+Analyzing Verilog file "C:\Users\MichaelShea\Desktop\lab3_guan\fsm.v" into library work
 Parsing module <fsm>.
 
 
-Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 3.18 secs
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.17 secs
  
 --> 
 
-Total memory usage is 132584 kilobytes
+Total memory usage is 200280 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

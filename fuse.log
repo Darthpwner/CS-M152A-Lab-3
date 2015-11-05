@@ -1,15 +1,29 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o W:/LinShea/Lab_3/counter_isim_beh.exe -prj W:/LinShea/Lab_3/counter_beh.prj work.counter work.glbl 
-ISim P.20131013 (signature 0x8ef4fb42)
-Number of CPUs detected in this system: 4
-Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/MichaelShea/Desktop/lab3_guan/tbmain_isim_beh.exe -prj C:/Users/MichaelShea/Desktop/lab3_guan/tbmain_beh.prj tbmain work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
 Determining compilation order of HDL files
-Analyzing Verilog file "W:/LinShea/Lab_3/counter.v" into library work
+Analyzing Verilog file "C:/Users/MichaelShea/Desktop/lab3_guan/clock_devider.v" into library work
+Analyzing Verilog file "C:/Users/MichaelShea/Desktop/lab3_guan/fsm.v" into library work
+Analyzing Verilog file "C:/Users/MichaelShea/Desktop/lab3_guan/debouncer.v" into library work
+WARNING:HDLCompiler:568 - "C:/Users/MichaelShea/Desktop/lab3_guan/debouncer.v" Line 36: Constant value is truncated to fit in <32> bits.
+Analyzing Verilog file "C:/Users/MichaelShea/Desktop/lab3_guan/counter.v" into library work
+Analyzing Verilog file "C:/Users/MichaelShea/Desktop/lab3_guan/main.v" into library work
+Analyzing Verilog file "C:/Users/MichaelShea/Desktop/lab3_guan/tbmain.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/MichaelShea/Desktop/lab3_guan/tbmain.v" Line 35: Port an is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/MichaelShea/Desktop/lab3_guan/main.v" Line 80: Port rst is not connected to this instance
 Completed static elaboration
-Fuse Memory Usage: 82756 KB
-Fuse CPU Usage: 202 ms
+Compiling module debouncer
+Compiling module clock_devider
+Compiling module fsm
 Compiling module counter
+Compiling module main
+Compiling module tbmain
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-ERROR:Simulator:861 - Failed to link the design
+Compiled 7 Verilog Units
+Built simulation executable C:/Users/MichaelShea/Desktop/lab3_guan/tbmain_isim_beh.exe
+Fuse Memory Usage: 27404 KB
+Fuse CPU Usage: 609 ms

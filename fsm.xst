@@ -1,5 +1,5 @@
-set -tmpdir "W:/LinShea/Lab_3/xst/projnav.tmp"
-set -xsthdpdir "W:/LinShea/Lab_3/xst"
+set -tmpdir "C:/Users/MichaelShea/Desktop/lab3_guan/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/MichaelShea/Desktop/lab3_guan/xst"
 run -compileonly yes
 -p xc6slx16-3-csg324
 -top fsm
