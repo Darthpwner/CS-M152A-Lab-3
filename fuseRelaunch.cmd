@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "W:/LinShea/Lab_3/counter_isim_beh.exe" -prj "W:/LinShea/Lab_3/counter_beh.prj" "work.counter" "work.glbl" 
