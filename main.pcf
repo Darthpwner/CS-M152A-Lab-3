@@ -1,0 +1,112 @@
+//! **************************************************************************
+// Written by: Map P.68d on Tue Nov 03 14:06:15 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "adj" LOCATE = SITE "T9" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "pas" LOCATE = SITE "M11" LEVEL 1;
+COMP "sel" LOCATE = SITE "T10" LEVEL 1;
+COMP "rst" LOCATE = SITE "B8" LEVEL 1;
+COMP "adj1" LOCATE = SITE "R11" LEVEL 1;
+COMP "adj2" LOCATE = SITE "N11" LEVEL 1;
+COMP "norm" LOCATE = SITE "T11" LEVEL 1;
+COMP "an<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "P17" LEVEL 1;
+COMP "pause" LOCATE = SITE "C4" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "ledadj" LOCATE = SITE "V16" LEVEL 1;
+COMP "ledsel" LOCATE = SITE "U16" LEVEL 1;
+COMP "ledpause" LOCATE = SITE "V15" LEVEL 1;
+COMP "ledreset" LOCATE = SITE "U15" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "d4/out" BEL "d3/out" BEL "d2/out" BEL "d1/out" BEL
+        "d3/counter_0" BEL "d3/counter_1" BEL "d3/counter_2" BEL
+        "d3/counter_3" BEL "d3/counter_4" BEL "d3/counter_5" BEL
+        "d3/counter_6" BEL "d3/counter_7" BEL "d3/counter_8" BEL
+        "d3/counter_9" BEL "d3/counter_10" BEL "d3/counter_11" BEL
+        "d3/counter_12" BEL "d3/counter_13" BEL "d3/counter_14" BEL
+        "d3/counter_15" BEL "d3/counter_16" BEL "d3/counter_17" BEL
+        "d3/counter_18" BEL "d3/counter_19" BEL "statemachine/cur_state_2" BEL
+        "statemachine/cur_state_1" BEL "statemachine/cur_state_0" BEL
+        "statemachine/nxt_state_2" BEL "statemachine/nxt_state_1" BEL
+        "statemachine/nxt_state_0" BEL "statemachine/state_2" BEL
+        "statemachine/state_1" BEL "statemachine/state_0" BEL
+        "statemachine/clkout" BEL "statemachine/cd/display_clock" BEL
+        "statemachine/cd/clk500Hz" BEL "statemachine/cd/clk2Hz" BEL
+        "statemachine/cd/clk1Hz" BEL "statemachine/cd/counter1hz_25" BEL
+        "statemachine/cd/counter1hz_24" BEL "statemachine/cd/counter1hz_23"
+        BEL "statemachine/cd/counter1hz_22" BEL
+        "statemachine/cd/counter1hz_21" BEL "statemachine/cd/counter1hz_20"
+        BEL "statemachine/cd/counter1hz_19" BEL
+        "statemachine/cd/counter1hz_18" BEL "statemachine/cd/counter1hz_17"
+        BEL "statemachine/cd/counter1hz_16" BEL
+        "statemachine/cd/counter1hz_15" BEL "statemachine/cd/counter1hz_14"
+        BEL "statemachine/cd/counter1hz_13" BEL
+        "statemachine/cd/counter1hz_12" BEL "statemachine/cd/counter1hz_11"
+        BEL "statemachine/cd/counter1hz_10" BEL "statemachine/cd/counter1hz_9"
+        BEL "statemachine/cd/counter1hz_8" BEL "statemachine/cd/counter1hz_7"
+        BEL "statemachine/cd/counter1hz_6" BEL "statemachine/cd/counter1hz_5"
+        BEL "statemachine/cd/counter1hz_4" BEL "statemachine/cd/counter1hz_3"
+        BEL "statemachine/cd/counter1hz_2" BEL "statemachine/cd/counter1hz_1"
+        BEL "statemachine/cd/counter1hz_0" BEL "statemachine/cd/counter2hz_24"
+        BEL "statemachine/cd/counter2hz_23" BEL
+        "statemachine/cd/counter2hz_22" BEL "statemachine/cd/counter2hz_21"
+        BEL "statemachine/cd/counter2hz_20" BEL
+        "statemachine/cd/counter2hz_19" BEL "statemachine/cd/counter2hz_18"
+        BEL "statemachine/cd/counter2hz_17" BEL
+        "statemachine/cd/counter2hz_16" BEL "statemachine/cd/counter2hz_15"
+        BEL "statemachine/cd/counter2hz_14" BEL
+        "statemachine/cd/counter2hz_13" BEL "statemachine/cd/counter2hz_12"
+        BEL "statemachine/cd/counter2hz_11" BEL
+        "statemachine/cd/counter2hz_10" BEL "statemachine/cd/counter2hz_9" BEL
+        "statemachine/cd/counter2hz_8" BEL "statemachine/cd/counter2hz_7" BEL
+        "statemachine/cd/counter2hz_6" BEL "statemachine/cd/counter2hz_5" BEL
+        "statemachine/cd/counter2hz_4" BEL "statemachine/cd/counter2hz_3" BEL
+        "statemachine/cd/counter2hz_2" BEL "statemachine/cd/counter2hz_1" BEL
+        "statemachine/cd/counter2hz_0" BEL "statemachine/cd/counterblink_23"
+        BEL "statemachine/cd/counterblink_22" BEL
+        "statemachine/cd/counterblink_21" BEL
+        "statemachine/cd/counterblink_20" BEL
+        "statemachine/cd/counterblink_19" BEL
+        "statemachine/cd/counterblink_18" BEL
+        "statemachine/cd/counterblink_17" BEL
+        "statemachine/cd/counterblink_16" BEL
+        "statemachine/cd/counterblink_15" BEL
+        "statemachine/cd/counterblink_14" BEL
+        "statemachine/cd/counterblink_13" BEL
+        "statemachine/cd/counterblink_12" BEL
+        "statemachine/cd/counterblink_11" BEL
+        "statemachine/cd/counterblink_10" BEL "statemachine/cd/counterblink_9"
+        BEL "statemachine/cd/counterblink_8" BEL
+        "statemachine/cd/counterblink_7" BEL "statemachine/cd/counterblink_6"
+        BEL "statemachine/cd/counterblink_5" BEL
+        "statemachine/cd/counterblink_4" BEL "statemachine/cd/counterblink_3"
+        BEL "statemachine/cd/counterblink_2" BEL
+        "statemachine/cd/counterblink_1" BEL "statemachine/cd/counterblink_0"
+        BEL "statemachine/cd/counter500hz_16" BEL
+        "statemachine/cd/counter500hz_15" BEL
+        "statemachine/cd/counter500hz_14" BEL
+        "statemachine/cd/counter500hz_13" BEL
+        "statemachine/cd/counter500hz_12" BEL
+        "statemachine/cd/counter500hz_11" BEL
+        "statemachine/cd/counter500hz_10" BEL "statemachine/cd/counter500hz_9"
+        BEL "statemachine/cd/counter500hz_8" BEL
+        "statemachine/cd/counter500hz_7" BEL "statemachine/cd/counter500hz_6"
+        BEL "statemachine/cd/counter500hz_5" BEL
+        "statemachine/cd/counter500hz_4" BEL "statemachine/cd/counter500hz_3"
+        BEL "statemachine/cd/counter500hz_2" BEL
+        "statemachine/cd/counter500hz_1" BEL "statemachine/cd/counter500hz_0"
+        BEL "clk_BUFGP/BUFG" BEL "d4/Mshreg_shift_3" BEL "d4/shift_3" BEL
+        "d3/Mshreg_shift_3" BEL "d3/shift_3" BEL "d2/Mshreg_shift_3" BEL
+        "d2/shift_3" BEL "d1/Mshreg_shift_3" BEL "d1/shift_3";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

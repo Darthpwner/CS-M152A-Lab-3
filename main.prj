@@ -1,0 +1,5 @@
+verilog work "clock_devider.v"
+verilog work "fsm.v"
+verilog work "debouncer.v"
+verilog work "counter.v"
+verilog work "main.v"

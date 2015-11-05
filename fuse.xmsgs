@@ -5,5 +5,14 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompiler" num="568" delta="unknown" >"C:/Users/MichaelShea/Desktop/lab3_guan/debouncer.v" Line 36: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">32</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/MichaelShea/Desktop/lab3_guan/tbmain.v" Line 35: Port <arg fmt="%s" index="1">an</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/MichaelShea/Desktop/lab3_guan/main.v" Line 80: Port <arg fmt="%s" index="1">rst</arg> is not connected to this instance
+</msg>
+
 </messages>
 
